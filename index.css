@@ -1,0 +1,59 @@
+#wrapper{
+    
+    width: 85%;
+    margin:10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.movieCard{
+    border: 2px solid blue;
+    width:calc(25% - 4px - 20px);
+    margin:10px;
+
+}
+
+.movieThumNail{
+    width: 100%;
+    
+}
+
+.movieDetail{
+    padding: 20px;
+}
+
+
+
+@media(max-width :400px){
+    .movieCard{
+    width:calc(100% - 4px - 20px);
+
+    }
+}
+
+@media(min-width:401px){
+    .movieCard{
+        width:calc(50% - 4px - 20px);
+    }
+}
+
+@media(min-width:800px){
+    .movieCard{
+        width:calc(33.33% - 4px - 20px);
+    }
+}
+
+@media(min-width:1100px){
+    .movieCard{
+        width:calc(25% - 4px - 20px);
+    }
+}
+
+@media(min-width:1300px){
+    .movieCard{
+        width:calc(20% - 4px - 20px);
+    }
+}
+
